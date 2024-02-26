@@ -7,29 +7,29 @@ import java.util.concurrent.CountDownLatch;
 public class App {
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);
-        //System.out.println("Digite o tamanho da ampulheta(informa numero par):");
-        //int nAmpulheta = scanner.nextInt();
+        System.out.println("Digite o tamanho da ampulheta(informa numero par):");
+        int nAmpulheta = scanner.nextInt();
         scanner.close();
         
         int nAmpulheta = 10;
             
          limparConsole();
          ampulheta(nAmpulheta);
-        //  tempo();
+          tempo();
        
         
 
-        //   int carro1 =(nAmpulheta/2)-3;
-        //   int addEspaco1=(carro1+1);
-        //   int i= 0;
-        //      while(i<=(nAmpulheta/2)-3){
-        //         i++;
-        //         limparConsole();
-        //         linhas2(carro1, addEspaco1, nAmpulheta);
-        //         tempo();
-        //         carro1--;
+           int carro1 =(nAmpulheta/2)-3;
+           int addEspaco1=(carro1+1);
+           int i= 0;
+              while(i<=(nAmpulheta/2)-3){
+                 i++;
+                 limparConsole();
+                 linhas2(carro1, addEspaco1, nAmpulheta);
+                 tempo();
+                 carro1--;
                 
-        //     }
+             }
         }
 
        
